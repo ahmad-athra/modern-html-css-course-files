@@ -1,3 +1,101 @@
-body {
-  font-family: 'Roboto', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #d9e2e8;
+}
+
+.container {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 0 20px;
+}
+
+.box {
+  margin: 20px 0;
+  padding: 20px 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.box h2 {
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+
+.box p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.box a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.box a:hover {
+  opacity: 0.9;
+}
+
+.box-1 {
+  background: #fff url("./images/sporty.png") no-repeat center right/contain;
+}
+.box-2 {
+  background: #fff url("./images/casual.png") no-repeat center right/contain;
+}
+.box-3 {
+  background: #fff url("./images/formal.png") no-repeat center right/contain;
+}
+
+.image img {
+  width: 150px;
+  height: 150px;
+}
+
+.box-1 h2 {
+  color: #e04553;
+}
+.box-2 h2 {
+  color: #0d4ba3;
+}
+.box-3 h2 {
+  color: #512b22;
+}
+
+.box-1 a {
+  background-color: #e04553;
+}
+.box-2 a {
+  background-color: #0d4ba3;
+}
+.box-3 a {
+  background-color: #512b22;
+}
+
+/* .box-1 button {
+  background-color: #e04553;
+}
+.box-2 button {
+  background-color: #0d4ba3;
+}
+.box-3 button {
+  background-color: #512b22;
+} */
+/* .box button {
+  margin-bottom: 5px;
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+}
+.box button:hover {
+  cursor: pointer;
+} */

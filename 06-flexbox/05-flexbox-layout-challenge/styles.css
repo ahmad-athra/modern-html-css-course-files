@@ -5,7 +5,8 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
 }
 
 ul {
@@ -23,4 +24,51 @@ a:hover {
 
 h2 {
   margin-bottom: 20px;
+}
+
+p {
+  margin: 20px 0;
+}
+
+header {
+  background-color: coral;
+  padding: 40px;
+}
+
+/* main menu */
+.main-menu {
+  display: flex;
+  gap: 20px;
+  flex: 1 0 0;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+.main-menu a {
+  font-size: 20px;
+}
+/* main */
+.main {
+  padding: 40px;
+  display: flex;
+  gap: 70px;
+  align-items: stretch;
+}
+.main > section {
+  flex: 3;
+}
+.main > aside {
+  width: 300px;
+}
+
+.main aside h3 {
+  background-color: coral;
+  color: white;
+  padding: 10px;
+}
+
+.main aside li {
+  /* height: 100%; */
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
 }
