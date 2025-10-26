@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   line-height: 1.6;
   background-color: #27264b;
@@ -148,4 +148,17 @@ li {
 .card ul i {
   color: #98ca9e;
   margin-right: 10px;
+}
+
+/* Query Media */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 40px 30px;
+    margin: 2rem;
+  }
+
+  .pricing {
+    flex-direction: column;
+    /* display: block; */
+  }
 }
