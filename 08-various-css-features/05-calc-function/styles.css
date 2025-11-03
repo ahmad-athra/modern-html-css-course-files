@@ -5,5 +5,19 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
+}
+
+.container {
+  display: flex;
+  background-color: #000;
+  width: 1000px;
+  height: 200px;
+}
+
+.item {
+  background-color: coral;
+  min-width: calc(calc(100% / 5) - 20px);
+  height: calc(100% - 20px);
+  margin: 10px;
 }
