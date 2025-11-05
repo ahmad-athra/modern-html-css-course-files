@@ -14,6 +14,28 @@
     <title>HTML & CSS Sandbox</title>
   </head>
   <body>
-    <h1>HTML & CSS Sandbox - Screen Reader Testing</h1>
+    <header class="header" role="banner">
+      <a href="/" class="logo" aria-label="logo and link to homepage"
+        >My Website</a
+      >
+      <nav class="nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li>
+            <a href="/" aria-label="follow us on facebook">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+        </ul>
+
+        <div class="search">
+          <label for="search" class="visiually-hidden">Search</label>
+          <input type="search" id="search" />
+          <button>Search</button>
+        </div>
+      </nav>
+    </header>
   </body>
 </html>

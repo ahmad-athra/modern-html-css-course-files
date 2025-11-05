@@ -1,17 +1,17 @@
-document.addEventListener('DOMContentLoaded', function () {
-  const header = document.querySelector('.accordion-header');
+document.addEventListener("DOMContentLoaded", function () {
+  const header = document.querySelector(".accordion-header");
 
-  header.addEventListener('click', () => {
+  header.addEventListener("click", () => {
     const content = header.nextElementSibling;
-    const expanded = header.getAttribute('aria-expanded') === 'true';
-
+    const expanded = header.getAttribute("aria-expanded") === "true";
+    console.log(expanded);
     // Toggle aria-expanded attribute
-    header.setAttribute('aria-expanded', !expanded);
+    header.setAttribute("aria-expanded", !expanded);
 
     // Toggle aria-hidden attribute
-    content.setAttribute('aria-hidden', expanded);
+    content.setAttribute("aria-hidden", expanded);
 
-    console.log('Accordion header clicked');
-    console.log('aria-expanded:', header.getAttribute('aria-expanded'));
+    console.log("Accordion header clicked");
+    console.log("aria-expanded:", header.getAttribute("aria-expanded"));
   });
 });
