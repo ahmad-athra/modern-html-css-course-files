@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 2;
 }
 
@@ -22,12 +22,22 @@ body {
 */
 
 /* Get only paragraphs that are direct children of container */
-
+.container > p {
+  background-color: yellow;
+}
 /* Get only unordered lists that are direct children of container */
-
+.container > ul {
+  list-style: circle;
+}
 /* Get only links that are direct children of container */
-
+.container > a {
+  background-color: lightgreen;
+}
 /* Get the immidiate sibling link after h1 */
-
+.container h1 + a {
+  color: red;
+}
 /* Get all links that are siblings that come after h1 */
-
+.container h1 ~ a {
+  color: lightblue;
+}

@@ -1,18 +1,33 @@
-
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 /* Style the first li of it's parent */
-
+ul > li:first-child {
+  background-color: lightgreen;
+}
 /* Style the last li of it's parent */
-
+ul > li:last-child {
+  background-color: lightcoral;
+}
 /* Style every odd item */
-
+ul > li:nth-child(odd) {
+  color: lightblue;
+}
 /* Style every even item */
-
+ul > li:nth-child(even) {
+  color: lightseagreen;
+}
 /* Style every nth Item */
-
+ul > li:nth-child(4) {
+  background-color: lightgrey;
+}
 /*  Style every 4th item */
-
+ul > li:nth-child(4n) {
+  background-color: lightskyblue;
+}
 /* Style the only child */
+/* Only applied if there is only one child */
+ul > li:only-child {
+  background-color: black;
+}
