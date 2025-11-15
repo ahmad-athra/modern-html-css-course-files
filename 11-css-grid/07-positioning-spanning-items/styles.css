@@ -21,3 +21,35 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
 }
+
+.item-1 {
+  grid-column-start: 1;
+  grid-column-end: span 3;
+}
+.item-2 {
+  grid-row: span 3;
+}
+.item-3 {
+  grid-row: span 3;
+}
+.item-4 {
+  grid-row: span 3;
+}
+.item-5 {
+  grid-column: span 3;
+}
+
+@media (max-width: 768px) {
+  .item-2 {
+    display: none;
+    grid-row: span 3;
+  }
+  .item-4 {
+    display: none;
+    grid-row: span 3;
+  }
+  .item-3 {
+    grid-row: span 3;
+    grid-column: span 3;
+  }
+}
