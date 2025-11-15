@@ -20,6 +20,40 @@
     <title>HTML & CSS Sandbox</title>
   </head>
   <body>
-    <h1>HTML & CSS Sandbox - Hamburger Menu</h1>
+    <!-- .navbar -->
+    <header class="header">
+      <div class="container header-flex">
+        <img src="./logo.png" alt="" class="logo" />
+        <!-- main menu -->
+        <div class="right-header">
+          <nav class="nav">
+            <ul class="main-menu-list">
+              <li><a href="#Item-1">Home</a></li>
+              <li><a href="#Item-2">About</a></li>
+              <li><a href="#Item-3">Services</a></li>
+              <li><a href="#Item-4">Blog</a></li>
+              <li><a href="#Item-5">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!-- mobile menu -->
+        <div class="mobile-main">
+          <div class="mobile-main-toggle">
+            <i id="hamburger" class="fa-solid fa-bars fa-2x"></i>
+          </div>
+          <div class="mobile-menu-items">
+            <ul class="mobile-menu-list">
+              <li><a href="#Item-1">Home</a></li>
+              <li><a href="#Item-2">About</a></li>
+              <li><a href="#Item-3">Services</a></li>
+              <li><a href="#Item-4">Blog</a></li>
+              <li><a href="#Item-5">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <script src="./script.js"></script>
   </body>
 </html>
